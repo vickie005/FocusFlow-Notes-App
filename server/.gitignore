@@ -1,0 +1,20 @@
+# Dependencies (The heavy stuff)
+node_modules/
+**/node_modules/
+
+# Environment Variables (The secret stuff)
+.env
+.env.local
+
+# Production Build folders
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
